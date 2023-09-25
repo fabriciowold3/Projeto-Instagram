@@ -1,0 +1,131 @@
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.imagem-celular {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s easi-in-out;
+
+}
+
+.container-itens {
+    width: 350px;
+}
+
+.container-form {
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 50px 40px 20px 40px;
+}
+
+input {
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin: 5px;
+    outline: none;
+    padding-left: 5px;
+    color: #262626;
+
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.imagens {
+    position: relative;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: 2s ease-in-out;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.paragrafo-conta {
+    font-size: 14px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logo-app {
+    width: 150px;
+
+}
+
+ body {
+    background-image: url(img/fundo-2-instagram.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
